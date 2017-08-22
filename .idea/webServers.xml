@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9a9f813f-4b43-4755-bb86-acaf980159c7" name="Painel de Controle Portal IBESP" url="http://admin.ibesp.org.br">
+        <fileTransfer host="srv3.ibesp.org.br" port="22" rootFolder="/var/www/ibespobr/www_admin" accessType="SFTP" password="dfe3dfc8dfcfdf92df9edf9adf93" username="ibespobr">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b563cedd-575b-48b7-a8a2-a32e42815656" name="TESTE - Painel de Controle Portal" url="http://teste01.ibesp.org.br">
+        <fileTransfer host="srv1.ibesp.org.br" port="22" rootFolder="/var/www/html/www_teste01" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
